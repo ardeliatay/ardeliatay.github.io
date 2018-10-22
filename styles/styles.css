@@ -3,7 +3,7 @@ body {
   background-color: #fff;
   box-sizing: border-box;
   color: rgb(118, 113, 113);
-  font-family: 'Muli', sans-serif;
+  font-family: 'pt sans', sans-serif;
 }
 
 hr {
@@ -26,7 +26,6 @@ a:hover {
 
 button:hover {
   cursor: pointer;
-  color:rgb(84, 84, 84)
 }
 
 .row {
@@ -43,10 +42,20 @@ button:hover {
 }
 
 
+
+
 /* Side navigation */
 .side-nav {
   min-height: 100%;
   background: rgb(200, 227, 225);
+}
+
+.about-me {
+  background: white;
+}
+
+.contact-me {
+  background: white;
 }
 
 /* #profile-pic {
@@ -112,6 +121,18 @@ section.employment h5 {
 section.employment p {
   margin: 5px 0;
   padding: 5px 0;
+}
+
+/* Education */
+.education h5 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.education h4 {
+  padding: 10px 0 8px 0;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 
 
