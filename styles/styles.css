@@ -12,4 +12,27 @@ html {
   height: 10em;
 }
 
+.project {
+  max-width: 428px;
+  margin: 0 auto 10px;
+}
+
+.projects img {
+  max-width: 100%;
+}
+
+.projects h5 {
+  margin: 5px 0;
+}
+
+.project-date {
+  font-weight: 500;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.projects p {
+  margin-bottom: 5px;
+}
+
 
