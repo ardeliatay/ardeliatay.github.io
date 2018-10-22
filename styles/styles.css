@@ -1,17 +1,71 @@
-html {
+body {
   font-size: 16px;
+  background-color: #fff;
+  box-sizing: border-box;
+  color: rgb(118, 113, 113);
+  font-family: 'Muli', sans-serif;
+}
+
+hr {
+  width: 100%;
+  margin: 0 0 30px;
+  border-width: 4px;
+  border-color: rgb(200, 227, 225);
 }
 
 
+a {
+  text-decoration: none;
+  color: rgb(118, 113, 113);
+}
+
+a:hover {
+  cursor: pointer;
+  color:rgb(84, 84, 84)
+}
+
+button:hover {
+  cursor: pointer;
+  color:rgb(84, 84, 84)
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+}
+
+
+/* Side navigation */
 .side-nav {
   min-height: 100%;
   background: rgb(200, 227, 225);
 }
 
-#profile-pic {
-  height: 10em;
+/* #profile-pic {
+  height: 13em;
+} */
+
+/* Skills */
+.skills h5 {
+  margin-bottom: 10px;
+  padding: 0 5px;
 }
 
+.skills p {
+  padding: 0 5px;
+}
+
+
+
+/* Projects */
 .project {
   max-width: 428px;
   margin: 0 auto 10px;
@@ -26,13 +80,53 @@ html {
 }
 
 .project-date {
-  font-weight: 500;
-  font-size: 12px;
   padding-bottom: 5px;
+  font-size: 14px;
 }
 
 .projects p {
   margin-bottom: 5px;
 }
+
+/* Employment */
+.employment-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+section.employment {
+ margin-bottom: 20px;
+}
+
+section.employment h4 {
+  padding: 10px 0 8px 0;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+section.employment h5 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+section.employment p {
+  margin: 5px 0;
+  padding: 5px 0;
+}
+
+
+/* Footer */
+.footer {
+  padding: 10px 0 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+/* Media Queries */
+
+
 
 

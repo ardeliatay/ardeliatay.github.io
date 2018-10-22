@@ -7,6 +7,7 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="./styles/styles.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -22,13 +23,14 @@
   <div class="container-fluid pl-0 pr-0 row">
 
 <!-- Side Nav -->
-    <div class="side-nav container-fluid col-4 mb-0 justify-content-center">
-      <img class="rounded-circle" id="profile-pic" src="./public/images/profile-pic.png" alt="profile-pic">
+    <div class="side-nav container-fluid col-3 mb-0 justify-content-center">
+      <!-- <img class="mt-3 ml-5" id="profile-pic" src="./public/images/profile-pic.png" alt="profile-pic"> -->
       
-      <div class="greeting pt-1 ml-3">
-        <h2>Hello, I'm</h2>
-        <h1>ARDELIA TAY</h1>
-        <p>I'm a web developer with a love for programming and design.  Driven by my fascination of technology, I made a switch from studying Nutrition and Health to explore the exciting and dynamic world that is web development.</p>
+      <div class="mt-4 greeting">
+        <h2 class="text-center">Hello, I'm</h2>
+        <h1 class="text-center">ARDELIA TAY</h1>
+        <p class="text-left mt-4">I'm a web developer with a love for programming and design.  Driven by my fascination of technology, I made a switch from studying Nutrition and Health to explore the exciting and dynamic world that is web development.</p>
+        <p class="text-left">Other interests of mine include health, nutrition and fitness.  I cam currently working on a mobile application to help users reduce their food waste.</p>
       </div>
       
       <div id="contact" class="pt-1 ml-3">
@@ -56,11 +58,12 @@
     </div>
 
 <!-- Main Body -->
-    <div id="main-body" class="col-8">
+    <div id="main-body" class="col-9">
       <div class="row skills">
-        <div class="card col-xs-12 col-sm-12">
-          <h2 class="title">TECH STACK</h2>
+        <div class="card col-xs-12 col-sm-12 mt-3">
+          <h2 class="title">TECH STACK</h2> 
         </div>
+        <hr>
         <div class="card col-xs-12 col-sm-6">
           <h5 class="title">LANGUAGES & FRAMEWORKS</h5>
           <p>JavaScript, Ruby on Rails, HTML/CSS/SASS, Bootstrap, Node.js, React, jQuery, EJS, AJAX, Knex</p>
@@ -75,6 +78,7 @@
         <div class="card col-xs-12 col-sm-12">
           <h2 class="title">PROJECTS</h2>
         </div>
+        <hr>
         <div class="card project col-xs-12 col-sm-4">
           <img src="./public/images/jungle-app.png" alt="Jungle project" />
           <button id="jungle-button">JUNGLE</button>
@@ -131,6 +135,7 @@
         <div class="card col-xs-12 col-sm-12">
           <h2 class="title">PROFESSIONAL EXPERIENCES</h2>
         </div>
+        <hr>
         <div class="card col-xs-12 col-sm-12 employment-container">
           <section class="employment">
             <h4>Events Specialist & Administrative Assistant - Nirvana Foods Inc</h4>
@@ -149,7 +154,7 @@
           </section>
           <section class="employment">
             <h4>Nutrition Educator - Nutrikids</h4>
-            <h5>Sept 2016 to Apr 2017 - Victoria, BC</h5>
+            <h5>Sept 2016 to Apr 2017</h5>
             <p>Worked in a team to develop specialized nutrition education workshops for elementary schools, prepared meals with the students while practicing food safety and fundamental nutrition concepts to encourage positive dietary habits</p>
           </section>
         </div>
@@ -159,6 +164,7 @@
         <div class="card col-xs-12 col-sm-12">
           <h2 class="title">EDUCATION</h2>
         </div>
+        <hr>
         <div class="card col-xs-12 col-sm-12">
           <section class="employment">
             <h4>Lighthouse Labs</h4>
