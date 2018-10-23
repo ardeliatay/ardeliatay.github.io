@@ -152,6 +152,14 @@ section.employment p {
 }
 
 /* Media Queries */
+@media only screen and (max-width: 600px) {
+
+  .side-nav h1 h2 p { 
+     font-size: 8px; 
+  }
+
+}
+
 
 
 
